@@ -1,0 +1,124 @@
+.header {
+    background-color: #72e65e;
+    color: rgb(235, 232, 232);
+    padding: 100px; 
+    text-align: center; 
+  }
+  .header h1
+   {
+      font-size: 50px;
+  }
+  .header p{
+    font-size: 30px;
+  }
+  .header button{
+    font-size: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .content {
+    margin-top: 20px; 
+    text-align: center;
+}
+.content-heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+.content-paragraph {
+    font-size: 30px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box {
+    height: 500px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #f0f0f0;
+    padding: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 50px;
+    text-align: center;
+    color: #c5bdbd;
+}
+.sub{
+    font-size: 20px;
+    font-weight: normal;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+}
+.abcd {
+    flex: 1;
+    margin-top: 0%;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.abcd h2{
+    color: #007bff;
+}
+.abc {
+    flex: 1;
+    margin-top: 0%;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.a {
+    background-color: #cdc119;
+    color: #333;
+    padding: 100px; 
+    text-align: center; 
+    margin-top: 20px; 
+    text-align: center;
+  }
+  .circle-container {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    margin: 20px;
+}
+.circle {
+    width: 200px; 
+    height: 200px;
+    border-radius: 70%; 
+    background-color: #f0f0f0;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    display: inline-block; 
+    margin: 20px;
+    
+}
+.para button{
+    font-size: 30px;
+    background-color:#fff;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .footer {
+    background-color: #fcfcfc;
+    padding: 60px; 
+    text-align: center; 
+  }
+  .footer h3{
+    color: #007bff;
+  }
